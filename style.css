@@ -13,10 +13,14 @@ body {
 
 
  hearder h1 { font-family: fantasy   ;
-            font-size: 60mm;}
+             text-align: center;
+            font-size: 30mm;}
 header h2 {font-family: sans-serif;
-          font-size: 100;}
-h2,
+           color: black;
+           text-align: center;
+           
+          font-size: 30mm;}
+
 h3 {
   font-family: "Playfair Display", Times, serif;
 }
@@ -26,7 +30,7 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: ;
   width: 100%;
 }
 
@@ -52,5 +56,14 @@ hr {
 
 /* Add your solution below */
 
-.image-circle {
+.image-circle { border-radius: 50%;
+               border:3px solid black  ;
+}
+a {
+  
+  color:#d62828;
+  
+}
+ a:hover {
+  color: #f77f00;
 }
