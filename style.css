@@ -34,7 +34,8 @@ article div {
   width: 100%;
 }
 
-p {
+p {text-align:left ;
+   color: black;
   line-height: 1.5;
 }
 
